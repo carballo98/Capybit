@@ -102,3 +102,130 @@ main {
     max-width: 900px;
     margin: 0 auto;
 }
+.main-exchange-container .backgroundImg{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+    background-image: url('/myAssets/img/bitcoinpurple.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main-exchange-container h2{
+    margin-bottom: 28px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+    color: var(--black);
+}
+.main-exchange-container p{
+    margin-bottom: 28px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.7rem;
+    color: #757575;
+}
+.container-table--title .title-table{
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--solid-purple);
+    min-width:60px;
+    max-width: 180px;
+    margin: 64px auto 21px;
+    padding: 0 auto;
+    justify-content: left;
+    align-items: left;
+}
+.main-table-container{
+    list-style: none;
+    min-width: 140px;
+    max-width: 350px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.main-table-container li { 
+    list-style: none;
+    text-decoration: none;
+    padding: 30px;
+    border: 1px solid rgba(149, 145, 145, 0.191);
+    background-color:var(--white);
+}
+.main-table-container a{
+    text-decoration: none;
+    line-height: 1.9rem;
+    font-size: 2rem;
+    font-family: "inter", sans-serif;
+    color: var(--grey);
+}
+.main-table-container .table-right a{
+    font-weight: normal;
+    color: #757575;
+    font-size: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+.main-table-container .table-right li{
+    padding: 0;
+    height: 81px;
+    width: 150px;
+    min-width: 140px;
+    text-align: center;
+    align-items: center;
+}
+.main-table-container .table-right{
+    min-width: 140px;
+}
+.main-table-container .top-left{
+    border-top-left-radius: 25px;
+}
+.main-table-container .bot-left{
+    border-bottom-left-radius: 25px;
+}
+.main-table-container .top-right{
+    border-top-right-radius: 25px;
+}
+.main-table-container .bot-right{
+    border-bottom-right-radius: 25px;
+}
+
+.main-table-container .arrow-but{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    background-image: url('/myAssets/icons/perdidas-icon.png');
+}
+.main-table-container .arrow-up{
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 20px;
+    height: 10px;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+    background-image: url('/myAssets/icons/ganancias-icon.png');
+}
+.currency-tabe--date{
+    width: 260px;
+    border-radius: 60px;
+    margin: 0 auto;
+    background-color: var(--soft-purple);
+}
+.currency-tabe--date p{
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 2rem;
+    color: var(--warm-black);
+}
