@@ -78,11 +78,15 @@ header p {
   color: var(--black);
 }
 .header--button span {
+  position: absolute;
   display: inline-block;
-  width: 13px;
-  height: 8px;
-  margin-left: 10px;
-  background-image: url("/Assets/icons/keybutton.svg");
+  width: 22px;
+  height: 18px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 4px;
+  background-image: url("/myAssets/icons/mdi_keyboard_arrow_bottom.png");
 }
 main {
   width: 100%;
@@ -242,7 +246,7 @@ main {
   width: 36px;
   height: 35px;
   background-image: url("/myAssets/icons/capybara-icon.png");
-  background-repeat: none;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   top: -15px;
@@ -289,7 +293,7 @@ main {
   background-image: url("/myAssets/icons/clock-icon.png");
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 }
 .product--card-title {
   margin-bottom: 10px;
@@ -312,7 +316,7 @@ main {
   background-image: url("/myAssets/icons/eye-icon.png");
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 }
 .product-detail--card .dollar {
   display: inline-block;
@@ -322,7 +326,7 @@ main {
   background-image: url("/myAssets/icons/dollar-sign-icon.png");
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
 }
 .product-detail--card .check {
   display: inline-block;
@@ -332,5 +336,123 @@ main {
   background-image: url("/myAssets/icons/check-circle-icon.png");
   background-size: cover;
   background-position: center;
-  background-repeat: none;
+  background-repeat: no-repeat;
+}
+.bitcoin-img-publi {
+  width: 100%;
+  min-width: 320px;
+  max-width: 680px;
+  height: 50vh;
+  background-image: url("/myAssets/img/Conocelo-hoy-img.jpg");
+  padding: 0;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bitcoin-img-publi h2 {
+  padding-top: 270px;
+  font-size: 2.9rem;
+  font-weight: bold;
+  line-height: 2.7rem;
+  color: #370538;
+  text-align: center;
+}
+.main-plans-container {
+  width: 100%;
+  min-width: 320px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.plans--title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.plans--title h2 {
+  padding-top: 50px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--black);
+}
+.plans--title p {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #757575;
+}
+.plans-container--card {
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 250px;
+  margin: 50px auto 0px;
+  padding: 0 15px;
+  background-color: var(--white);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.18);
+}
+.recommended {
+  position: absolute;
+  width: 120px;
+  height: 32px;
+  top: -15px;
+  left: calc(50% - 59px);
+  font-size: 1.2rem;
+  padding: 7px;
+  background-color: var(--solid-purple);
+  border-radius: 9px;
+  color: var(--white);
+}
+.plan-card--title {
+  padding-top: 30px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+}
+.plan-card--price {
+  padding: 5px 0px;
+  font-size: 5.2rem;
+  font-weight: bold;
+  line-height: 5.3rem;
+  color: var(--black);
+}
+.plan-card--price span {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.plan-card--saving {
+  font-size: 1.2rem;
+  color: #757575;
+}
+.plan-card--ca {
+  padding: 15px 30px;
+  width: 150px;
+  height: 48px;
+  margin-top: 20px;
+  border: 2px solid var(--solid-purple);
+  border-radius: 5px;
+  background-color: #faf8f7;
+  font-family: "DM Sans", sans-serif;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--black);
+  position: relative;
+  top: 36px;
+}
+.plan-card--ca span {
+  display: inline-block;
+  width: 21px;
+  height: 21px;
+  padding-top: 5px;
+  position: absolute;
+  top: 13px;
+  background-image: url("/myAssets/icons/mdi_keyboard_arrow-right.png");
 }
