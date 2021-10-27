@@ -384,10 +384,20 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
+/* cartas de precios + scroll*/
+.plans-container--slider {
+  display: flex;
+  gap: 36px;
+  height: 315px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+}
 .plans-container--card {
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
-  min-width: 230px;
+  min-width: 180px;
   max-width: 300px;
   height: 250px;
   margin: 50px auto 0px;
@@ -455,4 +465,38 @@ main {
   position: absolute;
   top: 13px;
   background-image: url("/myAssets/icons/mdi_keyboard_arrow-right.png");
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  background-color: var(--solid-purple);
+}
+footer section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+footer .left ul {
+  font-size: 1.4rem;
+  font-weight: 500px;
+  line-height: 1.8rem;
+  list-style: none;
+}
+footer .left li {
+  margin: 12px 0;
+}
+.left a {
+  text-decoration: none;
+  color: var(--white);
+}
+.logo--footer {
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 42px;
+  background-image: url("/myAssets/icons/capybara-icon.png");
 }
